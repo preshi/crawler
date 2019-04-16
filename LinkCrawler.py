@@ -175,7 +175,7 @@ def saveDataToFile(listData):
     fileName = None
     try:
         path = os.getcwd()
-        fileName = path + "/" +"output.txt"
+        fileName = "C:/Users/v-pepras/Documents" + "/" +"output.txt"
         file_obj = codecs.open(fileName,'w')
         for eachLink in listData:
             file_obj.write(str(eachLink) + "\n")
