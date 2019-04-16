@@ -1,0 +1,40 @@
+
+C:\Program Files (x86)\Microsoft Visual Studio\Shared\Anaconda3_64
+python C:\Users\v-pepras\source\crawler\LinkCrawler.py https://tata.com 100
+
+
+python C:\Users\v-pepras\source\crawler\LinkCrawler.py https://google.com 100
+
+
+https://stackoverflow.com/questions/43023562/how-to-solve-module-object-has-no-attribute-base-issue
+https://github.com/coursera-dl/coursera-dl/issues/554
+https://stackoverflow.com/questions/38447738/beautifulsoup-html5lib-module-object-has-no-attribute-base
+
+C:\Program Files (x86)\Microsoft Visual Studio\Shared\Anaconda3_64>python C:\Users\v-pepras\source\crawler\LinkCrawler.py https://google.com 100
+Traceback (most recent call last):
+  File "C:\Users\v-pepras\source\crawler\LinkCrawler.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+  File "C:\Users\v-pepras\source\crawler\bs4\__init__.py", line 29, in <module>
+    from .builder import builder_registry
+  File "C:\Users\v-pepras\source\crawler\bs4\builder\__init__.py", line 294, in <module>
+    from . import _htmlparser
+  File "C:\Users\v-pepras\source\crawler\bs4\builder\_htmlparser.py", line 7, in <module>
+    from html.parser import (
+ImportError: cannot import name 'HTMLParseError'
+
+
+C:\Program Files (x86)\Microsoft Visual Studio\Shared\Anaconda3_64\Scripts>c
+
+
+C:\Program Files (x86)\Microsoft Visual Studio\Shared\Anaconda3_64\Scripts
+
+
+'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Anaconda3_64/output.txt
+
+
+python C:\Users\v-pepras\source\crawler\LinkCrawler.py https://www.tata.com 2000
+
+
+https://stackoverflow.com/questions/8555320/is-there-a-clean-wikipedia-api-just-for-retrieve-content-summary
+
+https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=Stack%20Overflow
